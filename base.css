@@ -1,0 +1,246 @@
+:root{
+    --white-color:#fff;
+    --black-color:rgb(0, 0, 0);
+    --text-color:rgb(70, 70, 70);
+    --main-color:rgb(50, 0, 97);
+    --letter-color:rgb(3, 68, 99);
+    --text-color-rgba:rgba(70, 70, 70, 0.514);
+}
+*{
+    box-sizing: inherit;
+}
+html{
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+.list{
+    list-style: none;
+}
+.link{
+    text-decoration: none;
+}
+.content{
+    width: 90%;
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    height: 625px;
+    
+}
+.content2{
+    width: 90%;
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 30px;
+}
+.bgr-content{
+    background-color: rgba(152, 177, 185, 0.247);
+    padding-top: 150px;
+    width: 100%;
+    padding-bottom: 30px;
+    
+}
+.header-fixed{
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+}
+.app{
+    margin: 0 auto;
+    padding-top: -10px ;
+
+}
+.modal{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity linear o.3s;
+}
+.modal-overlay{
+    background-color: rgba(51, 41, 161, 0.171);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.modal-body{
+    width: 450px;
+    height: 300px;
+    position: relative;
+    z-index: 1;
+    background-color: var(--white-color);
+    border: 1px solid var(--letter-color);
+    border-radius: 5px;
+    margin: auto;
+}
+.modal-inner{
+    width: 100%;
+    height: 100%;
+}
+.modal-error{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity linear o.3s;
+}
+.modal-error:target{
+    visibility: visible ;
+    opacity: 1;
+}
+.modal-overlay-error{
+    width: 100%;
+    height: 100%;
+    background-color: var(--white-color);
+    position: absolute;
+    
+}
+.modal-body-error{
+    position: relative;
+    z-index: 1;
+    margin: auto;
+    background-color: var(--white-color);
+    
+}
+.modal-body-error h2{
+    font-size: 2rem;
+    color: var(--letter-color);
+    text-align: center;
+}
+.modal-body-error img{
+    text-align: center;
+    position: relative;
+    margin-left: 60px;
+}
+.back-link h2{
+    font-size: 1.8rem;
+    color: rgba(3, 69, 99, 0.712);
+    text-align: center;
+}
+.back-link h2:hover{
+    color: rgb(114, 57, 207);
+}
+.modal-error3{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity linear o.3s;
+}
+.modal-error3:target{
+    visibility: visible ;
+    opacity: 1;
+}
+.modal-overlay-error3{
+    width: 100%;
+    height: 100%;
+    background-color: var(--white-color);
+    position: absolute;
+    
+}
+.modal-body-error3{
+    position: relative;
+    z-index: 1;
+    margin: auto;
+    background-color: var(--white-color);
+    
+}
+.modal-body-error3 h2{
+    font-size: 2rem;
+    color: var(--letter-color);
+    text-align: center;
+}
+.modal-body-error3 img{
+    text-align: center;
+    position: relative;
+    margin-left: 60px;
+}
+.back-link3 h2{
+    font-size: 1.8rem;
+    color: rgba(3, 69, 99, 0.712);
+    text-align: center;
+}
+.back-link3 h2:hover{
+    color: rgb(114, 57, 207);
+}
+.modal-error2{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity linear o.3s;
+}
+.modal-error2:target{
+    visibility: visible ;
+    opacity: 1;
+}
+.modal-overlay-error2{
+    width: 100%;
+    height: 100%;
+    background-color: var(--white-color);
+    position: absolute;
+    
+}
+.modal-body-error2{
+    position: relative;
+    z-index: 1;
+    margin: auto;
+    background-color: var(--white-color);
+    
+}
+.modal-body-error2 h2{
+    font-size: 2rem;
+    color: var(--letter-color);
+    text-align: center;
+}
+.modal-body-error2 img{
+    text-align: center;
+    position: relative;
+    /* margin-left: 60px; */
+    width: 400px;
+    height: 400px;
+}
+.back-link2 h2{
+    font-size: 1.8rem;
+    color: rgba(3, 69, 99, 0.712);
+    text-align: center;
+}
+.back-link22 h2:hover{
+    color: rgb(114, 57, 207);
+}
+.footer{
+    width: 100%;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    border-top: 3px solid var(--letter-color);
+    /* margin-top: 25px; */
+}
+.box-footer{
+    width: 90%;
+    max-width: 100%;
+    margin: 0 auto;
+}
