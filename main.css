@@ -762,3 +762,66 @@
     font-size: 1.4rem;
     color: var(--letter-color);
 }
+@media (max-width: 1024px) {
+    .none{
+        display: none;
+    }
+    .hot-tag{
+        display: none;
+    }
+    .content{
+        width: 100%;
+    }
+    .content2{
+        width: 100%;
+    }
+    .slideshow{
+        display: none;
+    }
+    .box-new-top{
+        width: 100%;
+        margin-left: 0;
+    }
+    .new-top{
+        width: 100%;
+        
+    }
+    .new-top1{
+        width: 100%;
+    }
+    .home{
+        margin-left: -35px;
+    }
+    .box-search{
+        width: 150px;
+        height: 30px;
+        margin-left: -265px;
+    }
+    .login-link span{
+        display: none;
+    }
+    .login-link i{
+        margin-left: -990px;
+        margin-top: 3px;
+    }
+    .header__search-htr{
+        display: none;
+    }
+    .box-new-second{
+        width: 100%;
+    }
+    .box-new-second1{
+        width: 100%;
+    }
+    .content2{
+        width: 100%;
+        display: block;
+        flex-direction: column;
+    }
+    .new-second2{
+        flex-direction: column;
+    }
+    .content-new-second{
+        width: 100%;
+    }
+}
